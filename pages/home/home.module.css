@@ -1,0 +1,23 @@
+.sliders_ul>li{
+  width: 100%;
+  padding: 12px 8px;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  opacity: 0.5;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 14px;
+}
+.sliders_ul>li:hover{
+  opacity: 1;
+  background-color: #999;
+  color: #FFF;
+}
+
+.sliders_ul>.activity,
+.sliders_ul>.activity:hover{
+  opacity: 1;
+  color:#FFF;
+  background-color: rgba(57, 197, 187, 0.4);
+}
